@@ -1,0 +1,55 @@
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.quote-box {
+  position: relative;
+  width: 80%;
+}
+
+
+.quote-box .bottom {
+  text-align: left;
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-box .text {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #f32828;
+  margin-bottom: 1rem;
+}
+
+.quote-box .text {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #f32828;
+  margin-bottom: 1rem;
+}
+
+.quote-box .author {
+  text-align: right;
+  color: #f32828;
+}
+
+.new-quote {
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.884);
+  color: rgba(255, 255, 255, 0.918);
+  border: none;
+  margin-right: 1rem;
+  cursor: pointer;
+}

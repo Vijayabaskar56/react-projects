@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+
+
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  background-color: hsl(185, 75%, 39%);
+}
+/* 
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%) */
+
+/* Dark gray: hsl(0, 0%, 59%) */
+
+/* - Font size (name and stats): 18px */
+/* - Weights: 400, 700 */
+
+.root {
+  background: black;
+  font-size: 18px;
+  position: relative;
+}
+
+.maincontainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* border: 2px solid black; */
+  box-shadow: 50% hsl(0%,0%,59%);
+  border-radius: 15px;
+  transform: translate(-50%,-50%);
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.4);}
+
+.circle {
+  position: relative;
+  height: 140px;
+  width: 300px;
+  background-color: #45d3d8;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.circle img{
+  position: absolute;
+  bottom: -48px;
+  right: 32%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+}
+
+.profile{
+  height: 160px;
+  width: 300px;
+  background-color: white;
+  overflow: hidden;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: hsl(0%,0%,59%);
+}
+
+.profile .container {
+  position: relative;
+  top: 70px;
+  left: 3px;
+  text-align: center;
+}
+
+.profile .container p,
+.profile .container p span {
+  background-color: white;
+  font-weight: 400;
+  color: rgb(109, 109, 109);
+}
+
+.profile .container p .big-weight {
+  font-weight: 700;
+  color: black;
+}
+
+
+.status-div {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.status {
+  height: 50px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  color: rgb(111, 111, 111);
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box p .big-weight {
+  font-weight: 700;
+  color: black;
+  background-color: white;
+  font-size: 18px;
+} 
+
+.box p {
+  background-color: white;
+  color: rgb(111, 111, 111);
+  text-align: center;
+  font-size: smaller;
+}
+
+.box-1{
+  border-bottom-left-radius: 15px;
+}
+
+.box-3{
+  border-bottom-right-radius: 15px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10%;
+  left: 37%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-weight{
+  font-weight: 700;
+  font-size: 18px;
+  color: hsl(180, 2%, 19%);
+  background-color: white;
+}
